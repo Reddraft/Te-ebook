@@ -83,6 +83,7 @@ header {
   position: relative;
   height: 100vh;
   width: 100vw;
+  background-image: -webkit-linear-gradient(top, rgba(256, 256, 256, 1),  rgba(0, 0, 0, 0.2));
   background-image: linear-gradient(to bottom, rgba(256, 256, 256, 1),  rgba(0, 0, 0, 0.2));
   overflow: hidden;
 }
@@ -171,6 +172,7 @@ input:focus::-webkit-input-placeholder {
   outline: none;
   text-align: left;
   cursor: pointer;
+  -webkit-transition: all .25s;
   transition: all .25s;
 }
 
@@ -213,6 +215,7 @@ input[type="email"]:focus ~ .btn-submit:hover span {
   font-size: .8em;
   line-height: .7rem;
   width: 100%;
+  -webkit-transition: all .25s;
   transition: all .25s;
 }
 
