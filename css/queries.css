@@ -1,0 +1,132 @@
+/* laptops */
+@media only screen
+  and (min-width: 1260px)
+  and (max-width: 1366px) {
+
+  .logo { right: 40px;}
+
+  .hero-text-box {
+    padding-right: 40px;
+    top: 35%;
+  }
+
+  .hero-text-box span{ letter-spacing: 1px;}
+  .hero-text-box span::after { right: 25px;}
+  .hero-text-box .btn-submit:hover span::after { right: 15px;}
+
+}
+
+@media only screen
+  and (min-width: 1024px)
+  and (max-width: 1260px){
+
+  html { font-size: 18px; }
+
+  .logo {
+    width: 270px;
+    right: 40px;
+    top: 5%;
+  }
+
+  .image-container { width: 70%;}
+  .hero-text-box {
+    width: 55%;
+    top: 22%;
+    padding-right: 40px
+  }
+
+  h1 { font-size: 3em;}
+
+  .btn-submit { width: 45%;}
+
+}
+
+@media only screen and (max-width: 1023px) {
+  .logo {
+    width: 300px;
+    top: 25%;
+    right: 70px;
+  }
+
+  h1 { font-size: 2.3em;}
+
+  .main-heading  span { display: inline;}
+
+  p.hero-text {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+
+
+  .image-container {
+    float: none;
+    width: 75%;
+  }
+
+  .hero-text-box {
+    position: relative;
+    text-align: center;
+    top: -36px;
+    right: 0;
+    width: 100%;
+    padding: 0 70px;
+  }
+
+  .btn-submit {width: 40%;}
+}
+
+@media only screen and (max-width: 767px) {
+
+  .logo {
+    top: 20%;
+    right: 15px;
+    width: 220px;
+  }
+  .image-container { width: 80%; }
+
+  .hero-text-box {
+    top: 20px;
+    padding: 0 30px;
+  }
+
+   h1 { font-size: 1.8em;}
+
+   .main-heading span {
+     margin-bottom: 10px;
+     display: block;
+   }
+
+   p.hero-text {
+     font-size: .9rem;
+     margin-bottom: 15px;
+   }
+
+   form { height: inherit; }
+
+   input[type="email"]{
+     padding: 1em 1.5em;
+     margin-bottom: 10px;
+   }
+
+   .btn-submit {
+     position: initial;
+     padding: 1em 0;
+     width: 100%;
+     text-align: center;
+     border-radius: 2em;
+   }
+
+   input[type="email"]:focus ~ .btn-submit {
+     border: 2px solid #dd423a;
+     border-radius: 2em;
+   }
+
+   input[type="email"]:focus ~ .btn-submit:hover {
+     border: 2px solid #dd423a;
+   }
+
+   h2 { font-size: 1.5em;}
+   p.intro-text  {
+     width: 80%;
+   }
+}
