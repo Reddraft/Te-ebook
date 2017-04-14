@@ -1,0 +1,55 @@
+
+/**** HEADER ANIMATIONS ******/
+
+.js-wp-animate-logo,
+.js-wp-animate-main-heading,
+.js-wp-animate-hero-text,
+.js-wp-animate-form,
+.js-wp-animate-hero-h5,
+.js-wp-animate-scroll {
+  opacity: 0;
+}
+
+
+
+.js-wp-animate-logo {
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-delay: .25s;
+          animation-delay: .25s;
+}
+
+.js-wp-animate-main-heading {
+  -webkit-animation-duration: .75s;
+          animation-duration: .75s;
+  -webkit-animation-delay: .75s;
+          animation-delay: .75s;
+}
+
+.js-wp-animate-hero-text{
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-delay: 1.25s;
+          animation-delay: 1.25s;
+}
+
+.js-wp-animate-form {
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-delay: 1.75s;
+          animation-delay: 1.75s;
+}
+
+.js-wp-animate-hero-h5  {
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.js-wp-animate-scroll {
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-delay: 2.75s;
+          animation-delay: 2.75s;
+}

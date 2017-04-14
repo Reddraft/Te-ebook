@@ -79,6 +79,11 @@ and (max-device-width : 767px) {
       padding: 1em 1.5em;
       margin-bottom: 0;
     }
+    input[type="email"]:focus ~ .btn-submit {
+      border: 2px solid #dd423a;
+      border-radius: 0 2em 2em 0;
+    }
+
 
     .btn-submit {
       position: absolute;
