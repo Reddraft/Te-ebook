@@ -332,6 +332,10 @@ p.intro-text {
 **    FOOTER SECTION    **
 **************************/
 
+li {
+  list-style: none;
+}
+
 footer {
   background-image: url(../img/footer-bg.jpg);
   text-align: center;
